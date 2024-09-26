@@ -31,7 +31,7 @@ body{
 }
 
 #area-postagens{
-  width: 660px;
+  width: 960px;
   float: left;
 }
 
@@ -44,7 +44,13 @@ body{
   padding: 20px;
   margin-bottom: 20px;
   background: white;
+}
 
+.imagem-jogo{
+  padding: 20px;
+  margin-bottom: 20px;
+
+  background: white;
 }
 
 #rodape {
