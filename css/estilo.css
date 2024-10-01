@@ -17,6 +17,20 @@ body{
   text-align: center;
 }
 
+/*Formatação do menu */
+#area-cabecalho a{
+  text-decoration: none;
+}
+#area-cabecalho a:link, a:visited{
+  color: #FFF;
+  padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+  color: #f7b600;
+  background:#FFF;
+}
+
 #area-logo, #area-menu {
   padding: 10px;
 }
@@ -30,8 +44,12 @@ body{
   background: orange;
 }
 
+#conteudo-area-lateral {
+  background: white;
+}
+
 #area-postagens{
-  width: 960px;
+  width: 660px;
   float: left;
 }
 
@@ -44,6 +62,7 @@ body{
   padding: 20px;
   margin-bottom: 20px;
   background: white;
+
 }
 
 #rodape {
@@ -57,22 +76,6 @@ body{
   color: orange;
   padding: 0px;
     }
-
-
-/*Formatação do menu */
-a{
-  text-decoration: none;
-}
-a:link, a:visited{
-  color: #FFF;
-  padding: 8px 12px;
-}
-
-a:hover{
-  color: #f7b600;
-  background: #FFF;
-
-}
 
 /*Formatação em geral */
 h1{

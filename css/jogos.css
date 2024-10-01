@@ -1,3 +1,56 @@
-.postagemJogo{
-    display: flex;
-  }
+#area-postagens-cards{
+  width: 660px;
+  float: left;
+}
+
+#postagem-cards {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f7b600;
+  width: 180px;
+  height: 320px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px #aaaa;
+  transition: transform .27s;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card h1, h2, h3 {
+  text-align: center;
+}
+
+.card h1 {
+  font-size:xx-large;
+  color: white;
+}
+
+.card h2 {
+  font-size: large;
+}
+
+.card a, a:hover, a:link, a:visited{
+  text-decoration: none;
+  color: white;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card:hover {
+  transform: scale(1.08);
+}
