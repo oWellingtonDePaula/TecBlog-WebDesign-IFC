@@ -40,12 +40,26 @@ body{
   margin: 0 auto; /* auto paramargm autoática */
 }
 
-#area-postagens, #area-lateral{
+#area-postagens {
   background: orange;
+}
+
+#area-lateral{
+  background: orange;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+#area-lateral p{
+  text-align: left;
+  margin-left: 6px;
+  margin-bottom: 2px;
 }
 
 #conteudo-area-lateral {
   background: white;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 #area-postagens{
@@ -62,7 +76,6 @@ body{
   padding: 20px;
   margin-bottom: 20px;
   background: white;
-
 }
 
 #rodape {
@@ -75,13 +88,13 @@ body{
 #leia{
   color: orange;
   padding: 0px;
-    }
+}
 
 /*Formatação em geral */
 h1{
   color: #4e4e4e;
   font-size: 2.5em;
-  }
+}
 
 .branco {
   color: white;
