@@ -6,11 +6,11 @@
 #area-cards {
   margin-top: 15px;
   padding: 20px;
-  margin-left: 15%;
+  margin-left: 330px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 990px;
+  width: 60%;
   gap: 20px;
 }
 
