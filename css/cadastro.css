@@ -1,0 +1,90 @@
+.bloco-de-cadastro {
+    background: white;
+    border: 5px solid #f7b600;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px #aaaa;
+    margin-left: 27.5%;
+    margin-top: 10%;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.bloco-de-cadastro h2 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#termos {
+    width: 300px;
+    margin-left: 50px;
+    color: #434343;
+    margin-top: -80px;
+    font-size: 12.5px;
+}
+
+#termos a {
+    color: #434343;
+    transition: color .22s ease;
+    text-decoration: underline;
+}
+
+#termos a:hover {
+    color: rgb(255, 192, 57);
+}
+
+.formulario-cadastro {
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 350px;
+    height: 350px;
+}
+
+input {
+    width: 325px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 9px;
+    font-size: 17px;
+    border: 1px solid rgb(216, 208, 208);
+}
+
+input:focus {
+    outline-color: rgb(216, 208, 208);
+}
+
+.tecblog-return-home {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #f7b600;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #808080;
+}
+
+.tecblog-return-home a {
+    text-decoration: none;
+}
+
+.botao-email{
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 325px;
+    height: 50px;
+    font-size: 15px;
+    background: white;
+    color: #808080;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.botao-email:hover {
+    border: 3px dashed #808080;
+    color: white;
+    background-color: rgb(255, 192, 57);
+    transform: scale(1.1)
+}
