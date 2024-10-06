@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TecBlog - o seu blog de Tecnologia</title>
+    <link rel="shortcut icon" href="imagens/iconeSite.webp" type="image/x-icon">
+    <title>TecBlog - cadastro</title>
     <link rel="stylesheet" href="css/cadastro.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
   </head>
@@ -11,11 +12,24 @@
     <div class="tecblog-return-home">
         <a href="index.html"><h1>Tec<span class="branco">Blog</span></h1></a>
     </div>
-    <div id="area-principal">
+    <div id="area-principal-cadastro">
       <div class="bloco-de-cadastro">
-        <h2>Digite seu email</h2>
-        <form class="formulario-cadastro" action="continuacaoCadastro.html" method="GET">
-          <input type="text" name="email" id="email" placeholder="Digite seu email" >
+        <h2>Defina sua senha</h2>
+        <form class="formulario-cadastro" action="index.html">
+          <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+          <input type="password" name="senha" id="senha" placeholder="Repitir senha">
+          <input type="text" name="idade" id="idade" placeholder="Digite sua idade">
+
+          <h3>Opcionais:</h3>
+          <div id="oferta">
+            <input type="checkbox" name="ofertas" id="ofertas"><label>Receba notícias dos últimos blogs postados</label>
+          </div>
+          <div id="oferta">
+            <input type="checkbox" name="ofertas" id="ofertas"><label>Receba mensagens de outros da comunidade</label>
+          </div>
+          <div id="oferta">
+            <input type="checkbox" name="ofertas" id="ofertas"><label>Receba emails de nossos parceiros</label>
+          </div>
           <button class="botao-email" type="submit">Criar conta</button>
         </form>
         <div id="termos">

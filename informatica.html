@@ -3,97 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imagens/iconeSite.webp" type="image/x-icon">
     <title>TecBlog - Informática</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f5f5f5;
-      }
-      #area-cabecalho {
-        background-color: #f9a825;
-        padding: 20px;
-        text-align: center;
-        color: white;
-      }
-      #area-logo h1 {
-        margin: 0;
-      }
-      #area-logo span.branco {
-        color: white;
-      }
-      #area-menu {
-        margin-top: 10px;
-      }
-      #area-menu a {
-        color: white;
-        text-decoration: none;
-        margin: 0 15px;
-        font-weight: bold;
-      }
-      #area-menu a:hover {
-        text-decoration: underline;
-      }
-      #area-principal {
-        padding: 30px;
-      }
-      #area-postagens {
-        margin-bottom: 30px;
-      }
-      .postagem {
-        background-color: white;
-        padding: 20px;
-        margin-bottom: 30px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      .postagem h1 {
-        font-size: 32px;
-      }
-      .postagem h2 {
-        font-size: 28px;
-      }
-      .postagem p {
-        line-height: 1.6;
-        margin-top: 10px;
-      }
-      .postagem img {
-        margin-bottom: 20px;
-        max-width: 100%;
-        height: auto;
-      }
-      .postagem ul {
-        margin-top: 10px;
-        padding-left: 20px;
-      }
-      .postagem ul li {
-        margin-bottom: 10px;
-      }
-      #leia {
-        color: #f9a825;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      #leia:hover {
-        text-decoration: underline;
-      }
-      #area-lateral {
-        background-color: #eee;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      #rodape {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-      }
-    </style>
-  </head>
+
   <body>
     <div id="area-cabecalho">
+      <div id="perfil-usuario">
+        <img src="imagens/imagemPerfil.jpeg" width="40px" height="40px" alt="">
+        <p id="nome-de-usuario">NerdDosJogos123</p>
+      </div>
       <div id="area-logo">
         <h1>Tec<span class="branco">Blog</span></h1>
       </div>
@@ -103,6 +22,7 @@
         <a href="celulares.html">Celulares</a>
         <a href="informatica.html">Informática</a>
         <a href="eletronicos.html">Eletrônicos</a>
+        <a href="mailto:equipetecblog@tecblog.com">Contato</a>
         <a href="cadastro.html">Cadastre-se</a>
       </div>
     </div>
@@ -112,12 +32,12 @@
         <!-- Início da postagem sobre redes móveis -->
         <div class="postagem">
           <h1>Redes Móveis - Evolução de 1G a 5G</h1>
-          <img src="imagens/preto.png" alt="Imagem representando a rede 1G" />
+          <img src="imagens/preto.png" alt="Imagem representando a rede 1G" width="600px"/>
           <img src="imagens/branco.png" alt="Imagem representando a rede 1G" />
           <br>  
           <p>
             Desde a invenção do telefone celular, a tecnologia de redes móveis passou por avanços significativos, revolucionando a forma como nos comunicamos e acessamos informações. Ao longo das últimas quatro décadas, testemunhamos uma transformação constante, desde chamadas de voz simples até velocidades ultrarrápidas com a chegada do 5G. Aqui, analisaremos a evolução das redes móveis, de 1G a 5G, destacando as principais características de cada geração.
-            <img src="imagens/autista.png" alt="Imagem representando a rede 1G" />
+          
           </p>
 
           <br>
@@ -160,13 +80,12 @@
             O 5G, introduzido recentemente, representa um avanço monumental em termos de capacidade e velocidade. Esta geração é 100 vezes mais rápida que o 4G e foi projetada para suportar uma vasta rede de dispositivos conectados (IoT), cidades inteligentes e veículos autônomos. Além disso, o 5G possui latências extremamente baixas, possibilitando interações em tempo real para aplicações como cirurgias remotas e jogos em nuvem. O futuro do 5G também está diretamente ligado à expansão das redes inteligentes, onde a conexão de milhões de dispositivos simultâneos será fundamental.
           </p>
           
-          <a id="leia" href="#">Leia Mais</a>
         </div>
         <!-- Fim da postagem -->
       </div>
 
       
 
-    <div id="rodape">Tá reservado tlgd? &reg;;    &copy; &copy; &copy; 2024</div>
+    <div id="rodape">Tá reservado tlgd? &reg;    &copy; 2024</div>
   </body>
 </html>

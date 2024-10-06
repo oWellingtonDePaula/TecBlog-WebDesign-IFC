@@ -58,8 +58,13 @@ body{
 
 #conteudo-area-lateral {
   background: white;
+  text-align: center;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+}
+
+#conteudo-area-lateral h1 {
+  color: black;
 }
 
 #area-postagens{
@@ -78,6 +83,11 @@ body{
   background: white;
 }
 
+.postagem a {
+  font-size: 25px;
+  color: #f7b600;
+}
+
 #rodape {
   clear: both;
   text-align: center;
@@ -88,6 +98,7 @@ body{
 #leia{
   color: orange;
   padding: 0px;
+  font-size: 15px;
 }
 
 /*Formatação em geral */
@@ -98,4 +109,22 @@ h1{
 
 .branco {
   color: white;
+}
+
+#perfil-usuario {
+  display: flex;
+  align-items: center;
+}
+
+#nome-de-usuario {
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+#perfil-usuario img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
